@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./greece.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;700&family=Prata:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elamu Lombok | Greek Restaurant in Kuta Lombok, Indonesia</title>
+    <meta
+      name="description"
+      content="Experience authentic Greek cuisine in the heart of Lombok. Enjoy a warm atmosphere, delicious food, and stunning island ambiance at Elamu Lombok."
+    />
+    <script type="module" crossorigin src="./assets/script.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/style.css">
+  </head>
+  <body class="font-body bg-neutral-950 text-neutral-100">
+    <!-- Header -->
+    <header class="shadow sticky top-0 z-20">
+      <div
+        class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6"
+      >
+        <a href="#" class="font-header text-3xl tracking-widest">Elamu</a>
+        <nav class="space-x-8 text-lg">
+          <a href="#about" class="hover:text-amber-500 transition">About</a>
+          <a href="#menu" class="hover:text-amber-500 transition">Menu</a>
+          <a href="#gallery" class="hover:text-amber-500 transition">Gallery</a>
+          <a href="#contact" class="hover:text-amber-500 transition">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative h-[70vh] flex items-center justify-center bg-center bg-cover"
+      style="background-image: url('assets/hero.jpg')"
+    >
+      <div class="absolute inset-0 bg-stone-900/60"></div>
+      <div class="relative z-10 text-center text-white max-w-2xl mx-auto">
+        <h1 class="font-header text-5xl md:text-6xl mb-4 tracking-wide">
+          A Slice of Greece in Lombok
+        </h1>
+        <p class="text-xl md:text-2xl mb-8">
+          Authentic Greek cuisine, warm hospitality, and stunning island
+          ambiance.
+        </p>
+        <!-- <a
+          href="#reservation"
+          class="inline-block bg-yellow-400 text-blue-900 font-bold px-8 py-3 rounded-full text-lg shadow hover:bg-yellow-300 transition"
+          >Reserve a Table</a
+        > -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto py-16 px-6">
+      <div class="flex flex-col md:flex-row items-center gap-10">
+        <div class="md:w-1/2 text-lg leading-relaxed">
+          <p>
+            At
+            <span class="font-bold text-amber-500">Elamu Lombok</span>
+            authentic Greek cooking meets the beauty of Lombok. It takes a
+            mother's recipes and a menu crafted with love. Heartful hospitality,
+            for you to feel at home. And a Mediterranean House made for hanging
+            out all times of the day and evening.
+          </p>
+          <p class="mt-4">
+            <span class="italic">Kalos irthate!</span>
+          </p>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="assets/vibes.jpg"
+            alt="Greek food"
+            class="rounded-2xl shadow-lg w-full object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section id="menu" class="bg-stone-800 py-16 px-6">
+      <h2 class="font-header text-3xl md:text-4xl text-center mb-10">
+        Menu Highlights
+      </h2>
+      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+        <!-- Menu Item 1 -->
+        <div class="bg-stone-900 rounded-lg shadow p-6 text-center">
+          <img
+            src="assets/menu-breakfast.jpg"
+            alt="Breakfast"
+            class="rounded-lg mb-4 mx-auto h-40 w-full object-cover"
+          />
+          <h3 class="font-header text-xl mb-2 text-amber-500">Breakfast</h3>
+          <p class="text-stone-50">
+            Sourdough toast with salmon and avocado, eggs Benedict, and traditional Greek pastries—perfectly paired with excellent coffee.
+          </p>
+        </div>
+        <!-- Menu Item 2 -->
+        <div class="bg-stone-900 rounded-lg shadow p-6 text-center">
+          <img
+            src="assets/menu-lunch.jpg"
+            alt="Lunch & Dinner"
+            class="rounded-lg mb-4 mx-auto h-40 w-full object-cover"
+          />
+          <h3 class="font-header text-xl mb-2 text-amber-500">Lunch & Dinner</h3>
+          <p class="text-stone-50">
+            Home-style dishes like moussaka, grilled favorites including pita souvlaki, vibrant Greek salads, and unforgettable seafood.
+          </p>
+        </div>
+        <!-- Menu Item 3 -->
+        <div class="bg-stone-900 rounded-lg shadow p-6 text-center">
+          <img
+            src="assets/menu-dessert.jpg"
+            alt="Drinks"
+            class="rounded-lg mb-4 mx-auto h-40 w-full object-cover"
+          />
+          <h3 class="font-header text-xl mb-2 text-amber-500">Dessert</h3>
+          <p class="text-stone-50">Baklava rolls, phyllo-wrapped fried halloumi drizzled with honey, and other indulgent treats.</p>
+        </div>
+        <!-- Menu Item 4 -->
+        <div class="bg-stone-900 rounded-lg shadow p-6 text-center">
+          <img
+            src="assets/menu-drinks.jpg"
+            alt="Drinks"
+            class="rounded-lg mb-4 mx-auto h-40 w-full object-cover"
+          />
+          <h3 class="font-header text-xl mb-2 text-amber-500">Drinks</h3>
+          <p class="text-stone-50">Classic cocktails and signature twists, infused spirits, fresh juices, iced teas, and expertly brewed coffee—from espresso to cappuccino.</p>
+        </div>
+      </div>
+      <!-- <div class="text-center mt-10">
+        <a
+          href="#"
+          class="inline-block bg-amber-900 text-amber-50 px-8 py-3 rounded font-bold hover:bg-amber-800 transition"
+          >View Full Menu</a
+        >
+      </div> -->
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="max-w-6xl mx-auto py-16 px-6">
+      <h2 class="font-header text-3xl md:text-4xl text-center mb-10">Gallery</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img
+          src="assets/gallery-1.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+        <img
+          src="assets/gallery-2.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+        <img
+          src="assets/gallery-3.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+        <img
+          src="assets/gallery-4.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+        <img
+          src="assets/gallery-5.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+        <img
+          src="assets/gallery-6.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+        <img
+          src="assets/gallery-7.jpg"
+          alt=""
+          class="rounded-lg object-cover h-40 w-full"
+        />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-stone-900 py-16 px-6 text-white">
+      <div class="max-w-2xl mx-auto text-center">
+        <h2 class="font-header text-3xl md:text-4xl text-center mb-8">
+          Contact Us
+        </h2>
+        <div class="text-center text-lg">
+          <p class="mb-2">
+            <span class="font-bold">Address:</span> <a href="https://maps.app.goo.gl/EZarSt6quqjVGJcL6" class="text-amber-600 hover:underline" target="_blank">Jalan Pantai, Kuta, Lombok, Indonesia</a>
+          </p>
+          <p class="mb-2">
+            <span class="font-bold">Phone:</span>
+            <a href="tel:+628123456789" class="text-amber-600 hover:underline"
+              >+62 812-3456-789</a
+            >
+          </p>
+          <!-- <p class="mb-2">
+            <span class="font-bold">Email:</span>
+            <a
+              href="mailto:info@elamulombok.com"
+              class="text-amber-600 hover:underline"
+              >info@elamulombok.com</a
+            >
+          </p> -->
+          <div class="mt-6 flex justify-center space-x-6">
+            <a
+              href="https://www.instagram.com/elamulombok"
+              target="_blank"
+              class="text-zinc-300 hover:text-amber-500 text-2xl"
+              >Instagram</a
+            >
+            <a
+              href="https://www.facebook.com/elamulombok"
+              target="_blank"
+              class="text-zinc-300 hover:text-amber-500 text-2xl"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-gray-300 text-sm">
+      &copy; 2025 Elamu Lombok. All rights reserved.
+    </footer>
+    
+  </body>
+</html>
+
